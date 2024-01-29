@@ -13,7 +13,7 @@ int main() {
     
     int counter = 0;
     
-    printf("\nThe Armstrong numbers are:");
+    printf("The Armstrong numbers are:");
     while(i+counter <= j){
         if (isArmstrong(i+counter)) {
             printf(" %d", i+counter);
